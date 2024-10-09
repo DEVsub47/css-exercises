@@ -46,3 +46,36 @@ a {
 ul {
   list-style-type: none;
 }
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 16px;
+}
+
+ul {
+  display: flex;
+  gap: 16px;
+  margin: 0;
+  padding: 0;
+}
+
+.header div.right-side {
+  display: flex;
+  flex: 1;
+  justify-content: flex-end;
+  gap: 16px;
+}
+
+button {
+  align-self: center;
+  min-width: 151.01;
+}
+
+.header div.left-side {
+  display: flex;
+  flex: none;
+  align-items: center;
+  gap: 16px;
+}
